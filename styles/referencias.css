@@ -1,0 +1,51 @@
+body {
+    background-color: #727679;
+}
+
+.navbar img {
+    height: 100px;
+    
+}
+
+.head {
+    border-top: solid lightgray 1px;
+    background-color: white;
+}
+
+.main-titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .ofertas-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.botones-sesion button {
+    background-color: #34baff;
+    border-color: #34baff;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
