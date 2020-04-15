@@ -20,7 +20,7 @@
 
 .btn {
     margin-top: 50px;
-    
+    border-radius: 1em;
 }
 
 .logo {
@@ -33,5 +33,3 @@
 .ingresa {
    align-self: center;
 }
-
-
