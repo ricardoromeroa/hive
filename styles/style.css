@@ -1,5 +1,23 @@
-.grayback {
+.grayback{
     background-color: #727679;
     height: 300px;
+    color: whitesmoke;
 }
 
+.whiteback{
+    background-attachment: white;
+}
+
+.move-rigth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-process{
+    display: flex;
+    flex-direction: row;
+}
+
+.padding{
+    padding: 50px;
+}

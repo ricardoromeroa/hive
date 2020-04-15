@@ -6,55 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light whiteback move-rigth container">
 
         <a class="navbar-brand" href="#">
-            <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+            <img src="assets/png/hive.png" width="150" height="93" alt="Logo de Hive">
         </a>
 
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">¿Tienes un proyecto?</a>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Entrar<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Registro de empresas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Registro de freelancers</a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">¿Quieres trabajar?</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Entrar<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <main>
-        <div class="grayback">
-            <div class="container">
-                <p>
-                    Bienvenidos a FFFF, ¡qué bueno que nos encontraste!.
-                </p>
+        <div class="grayback image-process">
+            <div class="container padding">
+                <h4>
+                    Bienvenidos a Hive.
+                </h4>
+
+                <h4>
+                    ¡Qué bueno que nos encontraste!
+                </h4>
 
                 <p>
-                    FFF está diseñado para que los freelancers y las empresas puedan comunicarse de manera eficiente
+                    Hive está diseñado para que los freelancers y las empresas puedan comunicarse de manera eficiente
                     para
                     que logren sus objetivos. La idea es que si eres freelancer puedas encontrar una opción para
                     emplearte y
                     si eres una empresa puedas encontrar a los profesionistas adecuados para desarrollar tu proyecto.
                 </p>
             </div>
-            <div>
-                <img src="" alt="">
+
+            <div class="image-process padding">
+                <img src="assets/png/Proceso.png" alt="" width="600" height="170">
             </div>
         </div>
     </main>
@@ -89,6 +92,15 @@
                         ayuda a crecer a todos.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div>
+            <h4>Nuestros socios</h4>
+        </div>
+        <div>
+            <img src="" alt="">
         </div>
     </section>
 
@@ -137,14 +149,49 @@
                 </div>
             </div>
         </div>
+
     </section>
 
-    <section>
-        
+    <section class="container">
+        <button type="button" class="btn btn-secondary btn-lg">¿Quieres trabajar?</button>
+
+        <button type="button" class="btn btn-secondary btn-lg">¿Quieres proponer un proyecto?</button>
     </section>
 
+    <footer class="container row">
+        <div>
+            <img src="" alt="">
+        </div>
+
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-secondary">
+                <h5 class="card-title">Secondary card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-secondary">
+                <h5 class="card-title">Secondary card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-secondary">
+                <h5 class="card-title">Secondary card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+        </div>
+
+    </footer>
 </body>
-
 
 
 </html>
