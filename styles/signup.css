@@ -1,0 +1,30 @@
+.pagebg {
+    background-color: rgba(52, 186, 255,.62 );
+}
+
+.form-group.form-control {
+    padding: 50px;
+}
+
+.container {
+    padding: 50px;
+    
+}
+
+.card {
+    padding: 50px;
+    
+}
+
+
+.btn {
+    margin-top: 50px;
+}
+
+.logo {
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 50px;
+    
+}
+
