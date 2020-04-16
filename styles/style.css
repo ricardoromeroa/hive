@@ -27,14 +27,15 @@ p{
 }
 
 .padding{
-    padding: 90px;
+    padding: 80px;
 }
 
 .padding-main{
-    padding-top: 80px;
-    padding-right: 10px;
-    padding-bottom: 50px;
-    padding-left: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .icons{
@@ -127,5 +128,5 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 10px;
 }
