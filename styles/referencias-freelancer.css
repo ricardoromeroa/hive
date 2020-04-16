@@ -1,0 +1,101 @@
+body {
+    background-color: #727679;
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.head {
+    border-top: solid lightgray 1px;
+    background-color: white;
+}
+
+.main-titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo p {
+    margin: 0px;
+}
+
+.main-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidenav {
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    left: 0;
+    background-color: #111;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botones-sesion button {
+    background-color: #34baff;
+    border-color: #34baff;
+}
+
+.ofertas {
+    max-width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr {
+    border-color: #C7C7C7;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright p {
+    margin: 0px;
+}
