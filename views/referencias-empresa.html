@@ -38,11 +38,11 @@
                         <a class="nav-link" href="#">Publicar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login
+                        <a class="nav-link" href="login.html">Login
                             <!-- Perfil --></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Registrarse
+                        <a class="nav-link" href="signup.html">Registrarse
                             <!-- Mensajes --></a>
                     </li>
                     <!-- <li class="nav-item">
@@ -60,8 +60,8 @@
             </div>
 
             <div class="botones-sesion">
-                <button type="button" class="btn btn-primary">Quiero Trabajo</button>
-                <button type="button" class="btn btn-primary">Quiero Contratar</button>
+                <a href="signup.html"><button type="button" class="btn btn-primary">Quiero Trabajo</button></a>
+                <a href="signup.html"><button type="button" class="btn btn-primary">Quiero Contratar</button></a>
 
             </div>
         </div>
@@ -72,12 +72,43 @@
             <div>
                 <div class="card filtro">
                     <div class="card-body">
-                        <h3>Filtro</h3>
+                        <h3>Filtros</h3>
                         <!-- Pendiente modificacion de contenido -->
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Contact</a>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search..">
+                            <a href=""><i class="fas fa-search"></i></a>
+                        </div>
+                        <h5>Salario</h5>
+                        <div class="opciones-filtro">
+                            <a href="">Mas de $5,000.00</a>
+                            <a href="">Mas de $10,000.00</a>
+                            <a href="">Mas de $15,000.00</a>
+                            <a href="">Mas de $20,000.00</a>
+                        </div>
+
+                        <h5>Ubicación</h5>
+                        <div class="opciones-filtro">
+                            <a href="">Ciudad de Mexico</a>
+                            <a href="">Jalisco</a>
+                            <a href="">Nuevo Leon</a>
+                            <a href="">Sonora</a>
+                            <a href="">Remoto</a>
+                        </div>
+                        <h5>Habilidades</h5>
+                        <div class="opciones-filtro">
+                            <a href="">Software Development</a>
+                            <a href="">Javascript</a>
+                            <a href="">HTML/CSS</a>
+                            <a href="">PHP</a>
+                        </div>
+                        <h5>Tipo de Trabajo</h5>
+                        <div class="opciones-filtro">
+                            <a href="">Empleo de Tiempo Completo</a>
+                            <a href="">Empleo de Medio Tiempo</a>
+                            <a href="">Trabajos Temporales/Freelance</a>
+                            <a href="">Pasantias/Practicas</a>
+                        </div>
+
                     </div>
                 </div>
 
