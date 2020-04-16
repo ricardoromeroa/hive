@@ -28,9 +28,16 @@
 
 .btn {
     margin-top: 50px;
+    width: 150px;
     
 }
 
 .col-12 {
     justify-content: center;
 }
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
