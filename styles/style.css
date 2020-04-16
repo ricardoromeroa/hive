@@ -4,8 +4,8 @@ p{
 
 .grayback{
     background-color: #727679;
-    height: 300px;
     color: whitesmoke;
+    height: 400px;
 }
 
 .whiteback{
@@ -27,7 +27,14 @@ p{
 }
 
 .padding{
-    padding: 50px;
+    padding: 90px;
+}
+
+.padding-main{
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .icons{
@@ -41,6 +48,18 @@ p{
 .text-cards{
     padding: 10px;
     text-align: justify;
+}
+
+.marging-cards{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.align-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .logos-bg{
@@ -59,4 +78,54 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     padding:30px;
+}
+
+.pro-bg{
+    background-color: whitesmoke;
+}
+
+.pro-text{
+    text-align: center;
+    padding: 10px;
+    color: #727679;
+    padding: 30px;
+}
+
+.button-bg{
+    background-color: rgb(235, 239, 245);
+}
+
+.button-align{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-margin-register{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.color-card{
+    background-color: #727679;
+}
+
+.footer-text{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.footer-back{
+    background-color: #727679;
+    color: whitesmoke;
+    height: 400px;
+}
+
+.footer-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 30px;
 }
