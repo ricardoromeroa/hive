@@ -11,28 +11,6 @@
     max-width: 800px; 
 }
 
-.form-group.form-control {
-    padding: 50px;
-}
-
-
-
-
-.card {
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.877);
-    align-self: center;
-    margin-top: 100px;
-}
-
-.label {
-    margin-top: .5rem;
-}
-
-.btn {
-    margin-top: 50px;   
-}
-
 .logo {
     width: fit-content;
     align-self: center;
@@ -41,8 +19,18 @@
     margin-right: 10px;
 }
 
-.ingresa {
-   align-self: center;
+.card {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.877);
+    align-self: center;
+    margin-top: 150px;
 }
 
+.btn {
+    margin-top: 50px;
+    
+}
 
+.col-12 {
+    justify-content: center;
+}

@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/signup.css">
+    <link rel="stylesheet" href="../styles/login.css">
     <title>Log In</title>
 </head>
 
-<body>
-    <main class="pagebg">
-        <div class="container">
-            <form class="row">
+<body class="pagebg">
+        <main class="container-fluid">
+            <form class="form">
                 <div class="card col-12">
                     <a class= "logo" href="../index.html"><img class="logo" src="../assets/hive.png" alt="hive"></a>
                     <div class="form-group">
@@ -26,15 +25,13 @@
                         <label for="exampleInputPassword1">Contraseña</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu Contraseña">
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+                    <div>
+                        <a href="passwordrecovery.html">Olvidé mi contraseña</a>
                     </div>
                     <button type="submit" class="btn btn-primary">Acceder a HIVE</button>
                     <br>
-                    <p class="ingresa">No te has registrado? <a href="signup.html">Registrate Aquí</a></p>
-
+                    <p class="registro">No te has registrado? <a href="signup.html">Registrate Aquí</a></p>
                 </div>
             </form>
-        </div>
-    </main>
+        </main>
+    

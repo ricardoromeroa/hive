@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/formulario_oferta.css">
+
+    <title>Publicar oferta</title>
+</head>
+
+<body class="pagebg">
+    <main class="container">
+        <div class="card col-12">
+            <a class="logo" href="../index.html"><img class="logo" src="../assets/hive.png" alt="hive"></a>
+            <form>
+                <div class="form-row">
+                    <div class="col-6">
+                        <label for="">Nombre de la Empresa</label>
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-6">
+                        <label for="">Nombre del Puesto/Proyecto</label>
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleFormControlTextarea1">Descripión del Puesto/Proyecto</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleFormControlTextarea1">Requisitos</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="exampleFormControlSelect1">Tipo de Puesto</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Tipo de Puesto</option>
+                            <option>Medio Tiempo</option>
+                            <option>Tiempo Completo</option>
+                            <option>Prácticas Profesionales</option>
+                            <option>Proyecto</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="">Ubicación del Puesto/Proyecto</label>
+                        <input type="text" class="form-control" placeholder="Ubicación">
+                    </div>
+                    <div class="col-6">
+                        <label for="">Fecha de Publicación</label>
+                        <input type="date" class="form-control" placeholder="Fecha de Publicación">
+                    </div>
+                    <div class="col-6">
+                        <label for="">Fecha de Vencimiento</label>
+                        <input type="date" class="form-control" placeholder="Fecha de Vencimiento">
+                    </div>
+                    <div class="col-12">
+                        <h4 class="contacto">Datos del Contacto</h2>
+                    </div>
+                    <div class="col-6">
+                        <label for="">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col-6">
+                        <label for="">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                    <div class="col-12">
+                        <label for="">Correo de Contacto</label>
+                        <input type="email" class="form-control" placeholder="Correo de Contacto">
+                    </div>    
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
