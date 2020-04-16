@@ -1,0 +1,14 @@
+.pagebg {
+    background-image: url(../assets/bg.png);
+    width: 100%;
+    background-size: cover; 
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 100%;
+}
+
+.navbar img {
+    height: 100px;
+}

@@ -1,0 +1,43 @@
+.pagebg {
+    background-image: url(../assets/bg.png);
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.container-fluid {
+    padding: 50px;
+    margin: auto;
+    max-width: 800px; 
+}
+
+.logo {
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.877);
+    align-self: center;
+    margin-top: 150px;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 150px;
+    
+}
+
+.col-12 {
+    justify-content: center;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
