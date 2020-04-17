@@ -14,23 +14,21 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light whiteback move-rigth container">
 
-        <a class="navbar-brand col-12 col-sm-6 col-md-3" href="#">
-            <img class="logo-hive" src="assets/png/hive.png" alt="Logo de Hive">
-        </a>
+        <img class="logo-hive" src="assets/png/hive.png" alt="Logo de Hive">
 
         <div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item border border-ligth rounded button-margin">
-                        <a class="nav-link" href="#">¿Tienes un proyecto?</a>
+                        <a class="nav-link" href="/views/formulario_oferta.html">¿Tienes un proyecto?</a>
                     </li>
 
                     <li class="nav-item border border-ligth rounded button-margin">
-                        <a class="nav-link" href="#">¿Quieres trabajar?</a>
+                        <a class="nav-link" href="/views/perfil_usuario.html">¿Quieres trabajar?</a>
                     </li>
 
                     <li class="nav-item active border border-dark rounded button-margin">
-                        <a class="nav-link" href="#">Entrar<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/views/signup.html">Entrar<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -197,10 +195,14 @@
     <section class="button-bg ">
         <div class="container button-align">
             <div class="button-margin-register">
-                <button type="button" class="btn btn-secondary btn-lg rounded-pill">¿Quieres trabajar?</button>
+                <a href="/views/perfil_usuario.html">
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">¿Quieres trabajar?</button>
+                </a>
             </div>
             <div class="button-margin-register">
-                <button type="button" class="btn btn-secondary btn-lg rounded-pill">¿Tienes un proyecto?</button>
+                <a href="/views/formulario_oferta.html">
+                    <button type="button" class="btn btn-secondary btn-lg rounded-pill">¿Tienes un proyecto?</button>
+                </a>
             </div>
         </div>
     </section>
@@ -225,7 +227,7 @@
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link footer-text" href="#">contenidos</a>
+                                <a class="nav-link footer-text" href="/views/about-us.html">Sobre nosotros</a>
                             </li>
 
                             <li class="nav-item ">
@@ -287,6 +289,12 @@
         </div>
 
     </footer>
+    
+    <section>
+        <div class="copyright">
+            <p>Copyright © 2020 HIVE </p>
+        </div>
+    </section>
 </body>
 
 
