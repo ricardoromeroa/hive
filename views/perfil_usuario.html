@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/perfil_usuario.css">
+
     <title>Mi Perfil</title>
 </head>
 
@@ -15,24 +16,80 @@
     <div class="wrapper">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="../assets/HIVE.png" alt="" srcset=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="navbar-toggler-icon">
-
-
-                        </li>
-                    </ul>
-                </div>
+                <a class="navbar-brand" href="#"><img class="img" src="../assets/png/hive.png" alt="" srcset=""></a>
             </nav>
         </header>
+
+        <div class="mainpage">
+            <aside id="sidebar">
+                <div class="sidebar-header">
+                    <img class="pi" src="../assets/icons/user-solid.svg" alt="">
+                    <a class="pitexto" href="">cambia tu foto de perfil</a>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <p class="usuario">"CBb39EqRojo"</p>
+                    <li>
+                        <a class="listitems" href="#">Inicio</a>
+                    </li>
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"
+                            class="dropdown-toggle">Servicios</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="#">Actualiza tus datos</a>
+                            </li>
+                            <li>
+                                <a href="#">Bolsa de Trabajo</a>
+                            </li>
+                            <li>
+                                <a href="#">Calendario de Eventos y Cursos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="listitems" href="">Directorio</a>
+                    </li>
+                    <li>
+                        <a class="listitems" href="">Ayuda</a>
+                    </li>
+                    <li>
+                        <a class="listitems" href="../views/login.html">Cerrar Sesión</a>
+                    </li>
+                    <li>
+                        <!--<img src="../assets/png/devf.png" alt="devflogo"> Ajustar tamaño--> 
+                    </li>
+
+                </ul>
+
+            </aside>
+
+                 <div class="container-fluid">
+                    <div class="news"><iframe width="100%" height="100%" src="https://embed.windy.com/embed2.html?lat=29.069&lon=-110.954&zoom=5&level=surface&overlay=wind&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=29.069&detailLon=-110.954&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+                    </div>
+                    <div class="news"><iframe width="100%" height="100%" src="https://tech.economictimes.indiatimes.com/widget/technology" frameborder="0"></iframe></div>
+                    <div  style="text-align:center;padding:1em 0;"> <h3><a class="textcolor" style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/4004898"><span style="color:white;">Hora actual en</span><br />Hermosillo, México</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=medium&timezone=America%2FHermosillo" width="100%" height="100%" frameborder="0" seamless></iframe> </div>
+                    <div><img width="100%" height="90%" src="../assets/png/cursosdevf.png" alt="masterdevf"></div>
+                    <div><iframe width="100%" height="100%" src="https://tech.economictimes.indiatimes.com/widget/startups" frameborder="0"></iframe></div>
+                    <iframe src="https://es.widgets.investing.com/top-cryptocurrencies?theme=lightTheme" width="100%" height="600" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
+
+                 </div>
+
+
+
+
     </div>
 
-
+    <script src="../scripts/perfil_usuario.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -14,28 +14,28 @@
 <body class="pagebg">
     <main class="container">
         <div class="card col-12">
-            <a class="logo" href="../index.html"><img class="logo" src="../assets/hive.png" alt="hive"></a>
-            <form>
+            <a class="logo" href="../index.html"><img class="logo" src="../assets/png/hive.png" alt="hive"></a>
+            <form action="https://formspree.io/mrgavlap" method="POST" >
                 <div class="form-row">
                     <div class="col-6">
                         <label for="">Nombre de la Empresa</label>
-                        <input type="text" class="form-control" placeholder="First name">
+                        <input type="text" name="empresa" class="form-control" placeholder="First name">
                     </div>
                     <div class="col-6">
                         <label for="">Nombre del Puesto/Proyecto</label>
-                        <input type="text" class="form-control" placeholder="Last name">
+                        <input type="text" name="Puesto" class="form-control" placeholder="Last name">
                     </div>
                     <div class="form-group col-6">
                         <label for="exampleFormControlTextarea1">Descripión del Puesto/Proyecto</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="descripción" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="form-group col-6">
                         <label for="exampleFormControlTextarea1">Requisitos</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="requisitos" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="form-group col-6">
                         <label for="exampleFormControlSelect1">Tipo de Puesto</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" name="tipo" id="exampleFormControlSelect1">
                             <option>Tipo de Puesto</option>
                             <option>Medio Tiempo</option>
                             <option>Tiempo Completo</option>
@@ -45,34 +45,34 @@
                     </div>
                     <div class="col-12">
                         <label for="">Ubicación del Puesto/Proyecto</label>
-                        <input type="text" class="form-control" placeholder="Ubicación">
+                        <input type="text" class="form-control" name="ubicación" placeholder="Ubicación">
                     </div>
                     <div class="col-6">
                         <label for="">Fecha de Publicación</label>
-                        <input type="date" class="form-control" placeholder="Fecha de Publicación">
+                        <input type="date" class="form-control" name="fecha" placeholder="Fecha de Publicación">
                     </div>
                     <div class="col-6">
                         <label for="">Fecha de Vencimiento</label>
-                        <input type="date" class="form-control" placeholder="Fecha de Vencimiento">
+                        <input type="date" class="form-control" name="fecha" placeholder="Fecha de Vencimiento">
                     </div>
                     <div class="col-12">
-                        <h4 class="contacto">Datos del Contacto</h2>
+                        <h4 class="contacto" name="contacto">Datos del Contacto</h2>
                     </div>
                     <div class="col-6">
                         <label for="">Nombre</label>
-                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre">
                     </div>
                     <div class="col-6">
                         <label for="">Apellido</label>
-                        <input type="text" class="form-control" placeholder="Apellido">
+                        <input type="text" class="form-control" name="apellido" placeholder="Apellido">
                     </div>
                     <div class="col-12">
                         <label for="">Correo de Contacto</label>
-                        <input type="email" class="form-control" placeholder="Correo de Contacto">
+                        <input type="email" class="form-control" name="correo" placeholder="Correo de Contacto">
                     </div>    
                 </div>
                 <div class="boton">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" value="send" class="btn btn-primary">Enviar</button>
                 </div>
             </form>
         </div>
