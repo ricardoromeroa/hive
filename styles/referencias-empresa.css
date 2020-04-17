@@ -26,8 +26,24 @@ body {
 
 .main-container {
     padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: row;
+}
+
+.botones-sesion {
+    display: flex;
+    flex-direction: row;
+}
+
+.botones-sesion button {
+    background-color: #34baff;
+    border-color: #34baff;
+}
+
+.filtro {
+    /* cambiar tamaño de barra position: fixed; */
+    max-height: 100%;
 }
 
 .filtro a {
@@ -42,13 +58,68 @@ body {
     color: #34baff;
 }
 
-.filtro {
-    position: fixed;
-    width: 250px;
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.main {
-    padding: 0px 10px;
+.search-bar input[type=text] {
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid #818181;
+    margin-top: 8px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.search-bar a {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.filtro-opciones a {
+    font-size: 17px;
+}
+
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.fa-caret-down {
+    float: right;
+}
+
+.dropdown-btn:hover {
+    color: #34baff;
+}
+
+.active {
+    background-color: #34baff;
+    color: white;
+}
+
+.active:hover {
+    color: white;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: white;
+    padding-left: 8px;
+}
+
+.ofertas {
+    max-width: 100%;
 }
 
 .main-info {
@@ -57,23 +128,14 @@ body {
     justify-content: space-between;
 }
 
-.botones-sesion button {
-    background-color: #34baff;
-    border-color: #34baff;
-}
-
-.ofertas {
-    max-width: 100%;
+.main-puntos {
+    padding-left: 0px;
 }
 
 .habilidades {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-hr {
-    border-color: #C7C7C7;
 }
 
 footer {
