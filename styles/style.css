@@ -1,5 +1,150 @@
-.grayback {
-    background-color: #727679;
-    height: 300px;
+p{
+    text-align: justify;
 }
 
+.logo-hive{
+    height: 93px;
+}
+
+.grayback{
+    background-color: #727679;
+    color: whitesmoke;
+}
+
+.whiteback{
+    background-color: white;
+}
+
+.move-rigth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-process{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.button-margin{
+    margin: 5px;
+}
+
+.padding{
+    padding: 80px;
+}
+
+.padding-main{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #727679;
+}
+
+.text-cards{
+    padding: 10px;
+    text-align: justify;
+}
+
+.marging-cards{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.align-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logos-bg{
+    background-color: #34BAFF;
+}
+
+.logos-text{
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.logos-img{
+    background-color: rgb(152, 221, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:30px;
+}
+
+.pro-bg{
+    background-color: whitesmoke;
+}
+
+.pro-text{
+    text-align: center;
+    padding: 10px;
+    color: #727679;
+    padding: 30px;
+}
+
+.button-bg{
+    background-color: rgb(235, 239, 245);
+}
+
+.button-align{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-margin-register{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.color-card{
+    background-color: #727679;
+}
+
+.footer-text{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.footer-back{
+    background-color: #727679;
+    color: whitesmoke;
+    height: 400px;
+}
+
+.footer-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.logo-size{
+    width:100px;
+    height:100px;
+}
+
+.logo-devf{
+    width: 200px;
+    padding-top: 80px;
+    padding-right: 20px;
+}

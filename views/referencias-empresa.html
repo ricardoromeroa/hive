@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3302e8cbe8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="../styles/referencias-empresa.css" />
+
+    <title>Ofertas HIVE</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html"><img src="../assets/HIVE.png" alt="" srcset="" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Buscar
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="referencias-empresa.html">Vacantes</a>
+                            <a class="dropdown-item" href="referencias-freelancer.html">Candidatos</a>
+                        </div>
+                    </div>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Concursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publicar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login
+                            <!-- Perfil --></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Registrarse
+                            <!-- Mensajes --></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="head">
+        <div class="main-titulo container">
+            <div class="titulo">
+                <p>Ofertas Disponibles</p>
+            </div>
+
+            <div class="botones-sesion">
+                <a href="signup.html"><button type="button" class="btn btn-primary">Quiero
+                        Trabajo</button></a>
+                <a href="signup.html"><button type="button" class="btn btn-primary">Quiero
+                        Contratar</button></a>
+
+            </div>
+        </div>
+
+        <!-- Barra filtro para cels -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-sm-block d-md-none">
+            <a class="navbar-brand" href="#">Filtros</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-filter"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar...">
+                    <a href=""><i class="fas fa-search"></i></a>
+                </div>
+
+                <div class="filtro-opciones">
+                    <button class="dropdown-btn">Salario
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Mas de $5,000.00</a></div>
+                        <div><a href="">Mas de $10,000.00</a></div>
+                        <div><a href="">Mas de $15,000.00</a></div>
+                        <div><a href="">Mas de $20,000.00</a></div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <button class="dropdown-btn">Ubicación
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Ciudad de México</a></div>
+                        <div><a href="">Jalisco</a></div>
+                        <div><a href="">Nuevo León</a></div>
+                        <div><a href="">Sonora</a></div>
+                        <div><a href="">Remoto</a></div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <button class="dropdown-btn">Habilidades
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Software Development</a></div>
+                        <div><a href="">Javascript</a></div>
+                        <div><a href="">HTML/CSS</a></div>
+                        <div><a href="">PHP</a></div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <button class="dropdown-btn">Tipo de Trabajo
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Empleo de Tiempo Completo</a></div>
+                        <div><a href="">Empleo de Medio Tiempo</a></div>
+                        <div><a href="">Trabajos Temporales/Freelance</a></div>
+                        <div><a href="">Pasantias/Practicas</a></div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </main>
+
+    <section class="container">
+        <div class="main-container">
+            <div class="buscador-filtro col-md-4 col-lg-3 d-none d-md-block">
+                <div>
+                    <div class="card filtro">
+                        <div class="card-body">
+                            <h4>Filtros</h4>
+                            <div class="search-bar">
+                                <input type="text" placeholder="Buscar...">
+                                <a href=""><i class="fas fa-search"></i></a>
+                            </div>
+
+                            <div class="filtro-opciones">
+                                <button class="dropdown-btn">Salario
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Mas de $5,000.00</a>
+                                    <a href="">Mas de $10,000.00</a>
+                                    <a href="">Mas de $15,000.00</a>
+                                    <a href="">Mas de $20,000.00</a>
+                                </div>
+
+                                <div class="dropdown-divider"></div>
+
+                                <button class="dropdown-btn">Ubicación
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Ciudad de México</a>
+                                    <a href="">Jalisco</a>
+                                    <a href="">Nuevo León</a>
+                                    <a href="">Sonora</a>
+                                    <a href="">Remoto</a>
+                                </div>
+
+                                <div class="dropdown-divider"></div>
+
+                                <button class="dropdown-btn">Habilidades
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Software Development</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML/CSS</a>
+                                    <a href="">PHP</a>
+                                </div>
+
+                                <div class="dropdown-divider"></div>
+
+                                <button class="dropdown-btn">Tipo de Trabajo
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Empleo de Tiempo Completo</a>
+                                    <a href="">Empleo de Medio Tiempo</a>
+                                    <a href="">Trabajos Temporales/Freelance</a>
+                                    <a href="">Pasantias/Practicas</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="ofertas-empresa col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="titulo-puesto">
+                                                <h5>Full Stack Developer</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-compañia">
+                                                    <a href="">DEV.F</a>
+                                                </div>
+                                                <div class="duracion">
+                                                    <p>Proyecto</p>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Sonora, México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                25,000.00+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Estamos buscando un programador web que quiera emprender esta aventura junto
+                                            a
+                                            nosotros, que sea capaz de aportar ideas y aprender nuevas tecnologías.</p>
+                                    </div>
+                                    <div class="habilidades">
+                                        <a href="">PHP</a>
+                                        <a href="">Python</a>
+                                        <a href="">HTML/CSS</a>
+                                        <a href="">Java Script</a>
+                                        <a href="">Git</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="titulo-puesto">
+                                                <h5>Diseñador UI/ UX</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-compañia">
+                                                    <a href="">Nearsoft</a>
+                                                </div>
+                                                <div class="duracion">
+                                                    <p>Tiempo Completo</p>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Remoto</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                <span>Por Definir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Importante agencia de Marketing está en búsqueda de Diseñador UI/ UX (Sketch
+                                            APP)
+                                            para laborar en Corporativo en Reforma.</p>
+                                    </div>
+                                    <div class="habilidades">
+                                        <a href="">PHP</a>
+                                        <a href="">Python</a>
+                                        <a href="">HTML/CSS</a>
+                                        <a href="">Java Script</a>
+                                        <a href="">Git</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="titulo-puesto">
+                                                <h5>Practicante de Diseño Gráfico</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-compañia">
+                                                    <a href="">Mituo</a>
+                                                </div>
+                                                <div class="duracion">
+                                                    <p>Practicas Profesionales</p>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Ciudad de México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                <span>Por Definir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Estamos buscando un programador web que quiera emprender esta aventura junto
+                                            a
+                                            nosotros, que sea capaz de aportar ideas y aprender nuevas tecnologías.</p>
+                                    </div>
+                                    <div class="habilidades">
+                                        <a href="">PHP</a>
+                                        <a href="">Python</a>
+                                        <a href="">HTML/CSS</a>
+                                        <a href="">Java Script</a>
+                                        <a href="">Git</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="titulo-puesto">
+                                                <h5>Business Intelligence Engineer</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-compañia">
+                                                    <a href="">NativApps Inc</a>
+                                                </div>
+                                                <div class="duracion">
+                                                    <p>Tiempo Completo</p>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Remoto</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                24,000.00+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Buscamos integrante nuevo para nuestro equipo de Business Intelligence de TE
+                                            Connectivity, el cual será responsable del procesamiento, extracción y
+                                            entrega de datos a nuestra comunidad de clientes a través de repositorios,
+                                            herramientas y servicios.</p>
+                                    </div>
+                                    <div class="habilidades">
+                                        <a href="">AWS</a>
+                                        <a href="">Tableau</a>
+                                        <a href="">SQL</a>
+                                        <a href="">ETL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="titulo-puesto">
+                                                <h5>Desarrollador Java Jr</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-compañia">
+                                                    <a href="">Cobol</a>
+                                                </div>
+                                                <div class="duracion">
+                                                    <p>Tiempo Completo</p>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Ciudad de México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                17,000.00+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Buscamos a un Ing. en Sistemas, computación o carrera a fin con experiencia
+                                            en desarrollando con Java y Web Services de 1 año</p>
+                                    </div>
+                                    <div class="habilidades">
+                                        <a href="">Java</a>
+                                        <a href="">Oracle</a>
+                                        <a href="">Spring (MVC)</a>
+                                        <a href="">Maven</a>
+                                        <a href="">GIT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="titulo-puesto">
+                                                <h5>Desarrollador Android con interés en liderazgo</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-compañia">
+                                                    <a href="">Softtek</a>
+                                                </div>
+                                                <div class="duracion">
+                                                    <p>Tiempo Completo</p>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Monterey, Nuevo León</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                <span>Por Definir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Buscamos a un desarrollador Android que tenga interés en adoptar el rol de
+                                            líder, gestionando defectos, planificando proyectos, ejecutando de procesos
+                                            de liberación de componentes a Producción. Será 50% desarrollo y 50%
+                                            liderazgo. La experiencia como líder la adquirirás con nosotros.</p>
+                                    </div>
+                                    <div class="habilidades">
+                                        <a href="">IOS</a>
+                                        <a href="">Bases de Datos</a>
+                                        <a href="">HTML/CSS</a>
+                                        <a href="">Citrix</a>
+                                        <a href="">Fortify</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2020 HIVE </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="/scripts/referencias.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+body {
+    background-color: #727679;
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.head {
+    border-top: solid lightgray 1px;
+    background-color: white;
+}
+
+.main-titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo p {
+    margin: 0px;
+}
+
+.main-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.botones-sesion {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+}
+
+.botones-sesion button {
+    background-color: #34baff;
+    border-color: #34baff;
+}
+
+.filtro {
+    /* cambiar tamaño de barra position: fixed; */
+    max-height: 100%;
+}
+
+.filtro a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.filtro a:hover {
+    color: #34baff;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type=text] {
+    padding: 6px;
+    border-radius: 25px;
+    border: 1px solid #818181;
+    margin-top: 8px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.search-bar a {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.filtro-opciones a {
+    font-size: 17px;
+}
+
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.fa-caret-down {
+    float: right;
+}
+
+.dropdown-btn:hover {
+    color: #34baff;
+}
+
+.active {
+    background-color: #34baff;
+    color: white;
+}
+
+.active:hover {
+    color: white;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: white;
+    padding-left: 8px;
+}
+
+.ofertas {
+    max-width: 100%;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-puntos {
+    padding-left: 0px;
+}
+
+.habilidades {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 10px;
+}
+
+.habilidades a {
+        text-align: justify;
+
+}
+
+.caja-descripcion p {
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright p {
+    margin: 0px;
+}

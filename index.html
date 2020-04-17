@@ -1,150 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Hive</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light whiteback move-rigth container">
 
-        <a class="navbar-brand" href="#">
-            <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        <a class="navbar-brand col-12 col-sm-6 col-md-3" href="#">
+            <img class="logo-hive" src="assets/png/hive.png" alt="Logo de Hive">
         </a>
 
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item border border-ligth rounded button-margin">
+                        <a class="nav-link" href="#">¿Tienes un proyecto?</a>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Entrar<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Registro de empresas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Registro de freelancers</a>
-                </li>
-            </ul>
+                    <li class="nav-item border border-ligth rounded button-margin">
+                        <a class="nav-link" href="#">¿Quieres trabajar?</a>
+                    </li>
+
+                    <li class="nav-item active border border-dark rounded button-margin">
+                        <a class="nav-link" href="#">Entrar<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <main>
-        <div class="grayback">
-            <div class="container">
-                <p>
-                    Bienvenidos a FFFF, ¡qué bueno que nos encontraste!.
-                </p>
+    <main class="grayback">
+        <div class="container">
+            <div class="image-process">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <h4>
+                            Bienvenidos a Hive.
+                        </h4>
 
-                <p>
-                    FFF está diseñado para que los freelancers y las empresas puedan comunicarse de manera eficiente
-                    para
-                    que logren sus objetivos. La idea es que si eres freelancer puedas encontrar una opción para
-                    emplearte y
-                    si eres una empresa puedas encontrar a los profesionistas adecuados para desarrollar tu proyecto.
-                </p>
-            </div>
-            <div>
-                <img src="" alt="">
+                        <h4>
+                            ¡Qué bueno que nos encontraste!
+                        </h4>
+
+                        <p>
+                            Hive está diseñado para que los egresados de Devf y las empresas puedan comunicarse de
+                            manera
+                            eficiente
+                            para
+                            que logren sus objetivos. La idea es que si eres ex-alumno Devf puedas encontrar una opción
+                            para
+                            emplearte y al mismo tiempo mantener contacto con la comunidad y generar una red de
+                            profesionales.
+                        </p>
+                    </div>
+
+
+                    <img class="image-process image-process-size d-none d-lg-flex col-lg-6" src="assets/png/Proceso.png"
+                        alt="Elementos de desarrollo web" />
+
+                </div>
             </div>
         </div>
     </main>
 
     <section class="container">
-        <div class="card-group">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Registrate</h5>
-                    <p class="card-text">Llena tu registro con toda la información que se solicita. Esto hará que la
-                        búsqueda se mucho más efectiva.</p>
+        <div class="card-group padding">
+            <div class="row">
+                <div class="card border-0 icons col-12 col-sm-12 col-md-6 col-lg-4">
+                    <i class="fa fa-id-card fa-5x" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Registrate</h5>
+                        <p class="card-text text-cards">Llena tu registro con toda la información que se solicita. Esto
+                            hará
+                            que la
+                            búsqueda se mucho más efectiva.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Haz tu búsqueda</h5>
-                    <p class="card-text">Busca entre nuestrasmultiples ofertas un proyecto en el que puedas participar o
-                        a algún asociado dentro de nuestras bases de datos.
-                    </p>
+                <div class="card border-0 icons col-12 col-sm-12 col-md-6 col-lg-4">
+                    <i class="fa fa-search fa-5x" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Haz tu búsqueda</h5>
+                        <p class="card-text text-cards">Busca entre nuestras multiples ofertas un proyecto en el que
+                            puedas
+                            participar o
+                            a algún asociado dentro de nuestras bases de datos.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ponte en contacto</h5>
-                    <p class="card-text">Una vez que hayas visto una oferta que sea atractiva onte en contacto para
-                        poder llegar a un acuerdo, recuerda que calificar tu eexperiencia al final de plazo, eso nos
-                        ayuda a crecer a todos.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="row">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto 01</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto 02</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto 03</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Proyecto 04</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card border-0 icons col-12 col-sm-12 col-md-6 col-lg-4">
+                    <i class="fa fa-link fa-5x" aria-hidden="true"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Ponte en contacto</h5>
+                        <p class="card-text text-cards">Una vez que hayas visto una oferta que sea atractiva ponte en
+                            contacto para
+                            poder llegar a un acuerdo, recuerda que calificar tu experiencia al final de plazo, eso nos
+                            ayuda a crecer a todos.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section>
-        
+        <div class="logos-bg">
+            <div class="container logos-text">
+                <h3 class="">Nuestros socios</h3>
+            </div>
+        </div>
+
+        <div>
+            <div class="logos-img">
+                <div class=>
+                    <img class="logo-size" src="assets/png/logo-bbva.png" alt="Logo BBVA" />
+                </div>
+
+                <div>
+                    <img class="logo-size" src="assets/png/logo-bimbo.png" alt="Logo Bimbo" />
+                </div>
+
+                <div>
+                    <img class="logo-size" src="assets/png/logo-corner.png" alt="Logo Corner Shop" />
+                </div>
+
+                <div>
+                    <img class="logo-size" src="assets/png/logo-grin.png" alt="Logo Grin" />
+                </div>
+            </div>
+        </div>
     </section>
 
-</body>
+    <section>
+        <div class="container">
+            <div>
+                <div class="pro-text">
+                    <h3>Visita nuestros proyectos</h3>
+                </div>
+            </div>
 
+            <div class="container row align-cards">
+                <div class="card marging-cards shadow-sm p-3 mb-5 bg-white rounded text-center" style="width: 18rem;">
+                    <img src="assets/png/pro_web.png" class="card-img-top"
+                        alt="Desarrollo web-Imagen de manos frente a la computadora con código" />
+                    <div class="card-body">
+                        <h5 class="card-title text-cards">Desarrollo Web</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Ver proyectos</a>
+                    </div>
+                </div>
+
+                <div class="card marging-cards shadow-sm p-3 mb-5 bg-white rounded text-center" style="width: 18rem;">
+                    <img src="assets/png/pro_front.png" class="card-img-top"
+                        alt="Front end-Imagen de página de computadora" />
+                    <div class="card-body">
+                        <h5 class="card-title text-cards">Front end</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Ver proyectos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container row align-cards">
+
+                <div class="card marging-cards shadow-sm p-3 mb-5 bg-white rounded text-center" style="width: 18rem;">
+                    <img src="assets/png/pro_back.png" class="card-img-top"
+                        alt="Back end-Imagen de código de computadora">
+                    <div class="card-body">
+                        <h5 class="card-title text-cards">Back end</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Ver proyectos</a>
+                    </div>
+                </div>
+
+                <div class="card marging-cards shadow-sm p-3 mb-5 bg-white rounded text-center" style="width: 18rem;">
+                    <img src="assets/png/pro_full.png" class="card-img-top"
+                        alt="Full stack-computadora con iconos de diferents elementos web">
+                    <div class="card-body">
+                        <h5 class="card-title text-cards">Full stack</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Ver proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="button-bg ">
+        <div class="container button-align">
+            <div class="button-margin-register">
+                <button type="button" class="btn btn-secondary btn-lg rounded-pill">¿Quieres trabajar?</button>
+            </div>
+            <div class="button-margin-register">
+                <button type="button" class="btn btn-secondary btn-lg rounded-pill">¿Tienes un proyecto?</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-back">
+        <div class="container footer-align">
+            <div class="row">
+                <div class="d-none d-lg-block">
+                    <img class="logo-devf" src="assets/png/devf-white.png" alt="Logo Devf-la" />
+                </div>
+
+                <div class="card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                    <div class="card-header color-card">Hive</div>
+                    <div class="card-body text-secondary color-card">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Categorias</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Proyectos</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">contenidos</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Freelancers</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Empresas</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                    <div class="card-header color-card">Sobre nosotros</div>
+                    <div class="card-body text-secondary color-card">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Cómo trabajamos</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Seguridad</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Inversionistas</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Noticias</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card border-secondary mb-3 border-0" style="max-width: 18rem;">
+                    <div class="card-header color-card">Terminos</div>
+                    <div class="card-body text-secondary color-card">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Politicas de privacidad</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Terminos y condiciones</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link footer-text" href="#">Código de conducta</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
 
 
 </html>

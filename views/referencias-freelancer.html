@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/3302e8cbe8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="../styles/referencias-freelancer.css" />
+
+    <title>Ofertas HIVE</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html"><img src="../assets/HIVE.png" alt="" srcset="" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Buscar
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="referencias-empresa.html">Vacantes</a>
+                            <a class="dropdown-item" href="referencias-freelancer.html">Candidatos</a>
+                        </div>
+                    </div>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Concursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publicar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login
+                            <!-- Perfil --></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Registrarse
+                            <!-- Mensajes --></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="head">
+        <div class="main-titulo container">
+            <div class="titulo">
+                <p>Ofertas Disponibles</p>
+            </div>
+
+            <div class="botones-sesion">
+                <a href="signup.html"><button type="button" class="btn btn-primary">Quiero
+                        Trabajo</button></a>
+                <a href="signup.html"><button type="button" class="btn btn-primary">Quiero
+                        Contratar</button></a>
+
+            </div>
+        </div>
+
+        <!-- Barra filtro para cels -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-sm-block d-md-none">
+            <a class="navbar-brand" href="#">Filtros</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-filter"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar...">
+                    <a href=""><i class="fas fa-search"></i></a>
+                </div>
+
+                <div class="filtro-opciones">
+                    <button class="dropdown-btn">Salario
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Mas de $5,000.00</a></div>
+                        <div><a href="">Mas de $10,000.00</a></div>
+                        <div><a href="">Mas de $15,000.00</a></div>
+                        <div><a href="">Mas de $20,000.00</a></div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <button class="dropdown-btn">Ubicación
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Ciudad de México</a></div>
+                        <div><a href="">Jalisco</a></div>
+                        <div><a href="">Nuevo León</a></div>
+                        <div><a href="">Sonora</a></div>
+                        <div><a href="">Remoto</a></div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <button class="dropdown-btn">Habilidades
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Software Development</a></div>
+                        <div><a href="">Javascript</a></div>
+                        <div><a href="">HTML/CSS</a></div>
+                        <div><a href="">PHP</a></div>
+                    </div>
+
+                    <div class="dropdown-divider"></div>
+
+                    <button class="dropdown-btn">Tipo de Trabajo
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <div><a href="">Empleo de Tiempo Completo</a></div>
+                        <div><a href="">Empleo de Medio Tiempo</a></div>
+                        <div><a href="">Trabajos Temporales/Freelance</a></div>
+                        <div><a href="">Pasantias/Practicas</a></div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </main>
+
+    <section class="container">
+        <div class="main-container">
+            <div class="buscador-filtro col-md-4 col-lg-3 d-none d-md-block">
+                <div>
+                    <div class="card filtro">
+                        <div class="card-body">
+                            <h4>Filtros</h4>
+                            <div class="search-bar">
+                                <input type="text" placeholder="Buscar...">
+                                <a href=""><i class="fas fa-search"></i></a>
+                            </div>
+
+                            <div class="filtro-opciones">
+                                <button class="dropdown-btn">Salario
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Mas de $5,000.00</a>
+                                    <a href="">Mas de $10,000.00</a>
+                                    <a href="">Mas de $15,000.00</a>
+                                    <a href="">Mas de $20,000.00</a>
+                                </div>
+
+                                <div class="dropdown-divider"></div>
+
+                                <button class="dropdown-btn">Ubicación
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Ciudad de México</a>
+                                    <a href="">Jalisco</a>
+                                    <a href="">Nuevo León</a>
+                                    <a href="">Sonora</a>
+                                    <a href="">Remoto</a>
+                                </div>
+
+                                <div class="dropdown-divider"></div>
+
+                                <button class="dropdown-btn">Habilidades
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Software Development</a>
+                                    <a href="">Javascript</a>
+                                    <a href="">HTML/CSS</a>
+                                    <a href="">PHP</a>
+                                </div>
+
+                                <div class="dropdown-divider"></div>
+
+                                <button class="dropdown-btn">Tipo de Trabajo
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="">Empleo de Tiempo Completo</a>
+                                    <a href="">Empleo de Medio Tiempo</a>
+                                    <a href="">Trabajos Temporales/Freelance</a>
+                                    <a href="">Pasantias/Practicas</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="ofertas-empresa col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="nombre-candidato">
+                                                <h5>Ivonne Lorena García </h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-posicion">
+                                                    <a href="">UX Researcher/Designer</a>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Sonora, México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                <span>USD $2,000.00+/mes</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="habilidades">
+                                    <a href="">Diseño UX</a>
+                                    <a href="">Diseño UI</a>
+                                    <a href="">Investigación de Mercados</a>
+                                    <a href="">Estrategias Digitales</a>
+                                    <a href="">Comunicación</a>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Maestría en Ingenieria de Sistemas. Experiencia en investigación UX,
+                                            desarrollo
+                                            de
+                                            productos, gestión de proyectos y relaciones con clientes VIP de alto nivel.
+                                            Deseosa de fomentar una carrera en el ámbito cultural y artístico,
+                                            fuertemente
+                                            reforzado por una formación tecnológica e innovadora.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="nombre-candidato">
+                                                <h5>Mauricio Robles </h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-posicion">
+                                                    <a href="">Copywriter, Creative, Fotografo & Traductor</a>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Sonora, México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                <span>Por Definir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="habilidades">
+                                        <a href="">Fotografía</a>
+                                        <a href="">Edición de Contenido</a>
+                                        <a href="">Writing</a>
+                                        <a href="">Administracion de Redes Sociales</a>
+                                        <a href="">Creación de Contenido</a>
+                                    </div>
+                                    <div class="caja-descripcion">
+                                        <p>Soy escritor, creativo, fotógrafo y especialista en marketing digital. Me
+                                            encantan los libros, las redes sociales, el diseño y la creación de
+                                            contenido.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="nombre-candidato">
+                                                <h5>Dianxi Xiaoge</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-posicion">
+                                                    <a href="">Senior Account Manager</a>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Sonora, México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="ranking">
+                                                <span>Por Definir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="habilidades">
+                                        <a href="">Product Management</a>
+                                        <a href="">Ventas</a>
+                                        <a href="">Administración</a>
+                                        <a href="">Emprendurismo</a>
+                                        <a href="">Git</a>
+                                    </div>
+                                    <div class="caja-descripcion">
+                                        <p>Senior Product Manager en Mojix. Asesora en la Escuela Elemental.
+                                            Interesada en capitalizar la convergencia de AI y Blockchain hacia economías
+                                            de
+                                            datos equitativas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="nombre-candidato">
+                                                <h5>Oluwaseun Bello</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-posicion">
+                                                    <a href="">Full-Stack Developer</a>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Sonora, México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                               <span>Por Definir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="habilidades">
+                                    <a href="">Javascript</a>
+                                    <a href="">React</a>
+                                    <a href="">HTML/CSS</a>
+                                    <a href="">Base de Datos</a>
+                                    <a href="">Comunicación</a>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="caja-descripcion">
+                                        <p>Principalmente enfocado en gestión y desarrollo web. Siempre aprendiendo algo
+                                            nuevo, buscando la mejora continua de mis habilidades. Me gusta trabajar con
+                                            personas y sistemas bien estructurados. Interesado en enseñar y ayudar a
+                                            otros.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="nombre-candidato">
+                                                <h5>Sheila Proteau</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-posicion">
+                                                    <a href="">Business Development, Escritora/Editora Freelancer</a>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Ontario, Canadá</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="compensacion">
+                                                <span>USD $4,000.00+/mes</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="habilidades">
+                                        <a href="">Fotografía</a>
+                                        <a href="">Edición de Contenido</a>
+                                        <a href="">Writing</a>
+                                        <a href="">Administracion de Redes Sociales</a>
+                                        <a href="">Creación de Contenido</a>
+                                    </div>
+                                    <div class="caja-descripcion">
+                                        <p>Soy escritor, creativo, fotógrafo y especialista en marketing digital. Me
+                                            encantan los libros, las redes sociales, el diseño y la creación de
+                                            contenido.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="ofertas">
+                    <div class="caja">
+                        <div class="card tarjeta-vacante">
+                            <div class="card-body">
+                                <div class="primera-mitad">
+                                    <div class="main-info">
+                                        <div class="main-puntos col-9">
+                                            <div class="nombre-candidato">
+                                                <h5>Kyra Barker</h5>
+                                            </div>
+                                            <div class="subs-compañia">
+                                                <div class="nombre-posicion">
+                                                    <a href="">Especialista en Marketing</a>
+                                                </div>
+                                                <div class="ubicacion">
+                                                    <p>Sonora, México</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-contador">
+                                            <div class="contador">
+
+                                            </div>
+                                            <div class="ranking">
+                                                <span>USD $7,000.00/mes</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="segunda-mitad">
+                                    <div class="habilidades">
+                                        <a href="">Relaciones Publicas</a>
+                                        <a href="">Ventas</a>
+                                        <a href="">Estrategia Digital</a>
+                                        <a href="">Gestión de Marcas</a>
+                                        <a href="">Planeación</a>
+                                    </div>
+                                    <div class="caja-descripcion">
+                                        <p>
+                                            Soy una Mercadologa con 12 años de experiencia que abarcna el desarrollo de
+                                            estrategias, gestión de campañas, dirección creativa y planificación de
+                                            medios. Vengo con una mezcla de liderazgo de agencia y experiencia en
+                                            gestión de marcas basada en una especialización en marcas de consumo,
+                                            específicamente dentro de las industrias de CPG, automotriz y minorista.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2020 HIVE </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="/scripts/referencias.js"></script>
+
+</body>
+
+</html>

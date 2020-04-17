@@ -53,7 +53,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
+    padding: 0px 0;
     border-bottom: 1px solid #47748b;
 }
 
@@ -61,13 +61,21 @@ a, a:hover, a:focus {
     color: #fff;
     padding: 10px;
     font-size: 1.7em;
+    margin-bottom: 0;
+}
+
+#sidebar ul h5 {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0;
 }
 
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.5em;
     display: block;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    
 }
 
 #sidebar ul li a:hover {
@@ -81,7 +89,7 @@ a, a:hover, a:focus {
 }
 
 .container-fluid {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr .5fr;
     grid-gap: 1em;
     grid-auto-rows: minmax(auto, auto);
@@ -99,6 +107,19 @@ a, a:hover, a:focus {
 
 .usuario {
  text-align: center;
+ border: 1px rgba(32, 32, 32, 0.815) solid;
+ padding-top: 0;
 }
+
+.nombre {
+    text-align: center;
+    border: 1px rgba(32, 32, 32, 0.815) solid;
+    padding-top: 0;
+    
+}
+
+
+
+
 
 
