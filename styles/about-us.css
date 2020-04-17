@@ -1,0 +1,72 @@
+.body-bg{
+    background-image: url(../assets/png/bg.png);
+    background-size: 5000px;
+}
+
+h3, h6 {
+    text-align: center;
+    color: #727679;
+}
+
+.card-margin{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bg{
+    background-color: whitesmoke;
+}
+
+.space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+    color: #727679
+}
+
+.text-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-color{
+    background-color: #727679 ;
+}
+
+footer {
+    background-color: black;
+    height: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-hive{
+    height: 100px;
+}
+
+a{
+    font-size: 20px;
+}
+
+.bg-h1{
+    background-color: #727679;
+}
+
+h1 {
+    
+    color: whitesmoke;
+    padding: 30px;
+}

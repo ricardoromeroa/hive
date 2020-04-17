@@ -148,3 +148,10 @@ p{
     padding-top: 80px;
     padding-right: 20px;
 }
+
+.copyright{
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    padding-left: 30px;
+}
