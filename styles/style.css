@@ -2,14 +2,17 @@ p{
     text-align: justify;
 }
 
+.logo-hive{
+    height: 93px;
+}
+
 .grayback{
     background-color: #727679;
     color: whitesmoke;
-    height: 400px;
 }
 
 .whiteback{
-    background-attachment: white;
+    background-color: white;
 }
 
 .move-rigth{
@@ -18,8 +21,12 @@ p{
 }
 
 .image-process{
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+
 }
 
 .button-margin{
@@ -129,4 +136,15 @@ p{
     flex-direction: row;
     justify-content: flex-end;
     padding: 10px;
+}
+
+.logo-size{
+    width:100px;
+    height:100px;
+}
+
+.logo-devf{
+    width: 200px;
+    padding-top: 80px;
+    padding-right: 20px;
 }
