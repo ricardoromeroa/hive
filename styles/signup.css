@@ -1,5 +1,5 @@
 .pagebg {
-    background-image: url(../assets/png/bg.png);
+    background-image: url(../assets/png/bg1.png);
     width: 100%;
     background-size: cover;
     
@@ -16,8 +16,6 @@
 }
 
 
-
-
 .card {
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.877);
@@ -30,7 +28,9 @@
 }
 
 .btn {
-    margin-top: 50px;   
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;   
 }
 
 .logo {
@@ -43,6 +43,10 @@
 
 .ingresa {
    align-self: center;
+}
+
+.textoli {
+    text-align: center;
 }
 
 
