@@ -1,5 +1,5 @@
 .pagebg {
-    background-image: url(../assets/png/bg.png);
+    background-image: url(../assets/png/bg1.png);
     width: 100%;
     background-size: cover;
     
@@ -40,4 +40,12 @@
 
 .registro {
    align-self: center;
+}
+
+.textoli a {
+    color: white;
+}
+
+.textoli {
+    align-self: center;
 }
